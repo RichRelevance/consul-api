@@ -66,6 +66,7 @@
      we need a unit test that covers this, as discovering
      at runtime while model building sucks -->
     <guava.version>15.0</guava.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>
