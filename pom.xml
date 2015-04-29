@@ -30,7 +30,7 @@
   <name>consul-api</name>
   <groupId>net.nikore.consul</groupId>
   <artifactId>consul-api</artifactId>
-  <version>master-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <inceptionYear>2015</inceptionYear>
 
@@ -39,6 +39,8 @@
     <developerConnection>scm:git:git@github.com:nikore/consul-api.git</developerConnection>
     <url>https://github.com/nikore/consul-api</url>
   </scm>
+
+  <url>https://github.com/nikore/consul-api</url>
 
   <licenses>
     <license>
