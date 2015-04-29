@@ -40,6 +40,8 @@
     <url>https://github.com/nikore/consul-api</url>
   </scm>
 
+  <url>https://github.com/nikore/consul-api</url>
+
   <licenses>
     <license>
       <name>The Apache Software License, Version 2.0</name>
