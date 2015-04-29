@@ -1,17 +1,14 @@
 /**
  * Copyright (C) 2015 Matt Christiansen (matt@nikore.net)
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *         http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
+ * <p>
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS"
+ * BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
  */
 package net.nikore.consul.v1;
 
@@ -20,6 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+
 import net.nikore.consul.v1.acl.AclClient;
 import net.nikore.consul.v1.acl.AclConsulClient;
 import net.nikore.consul.v1.acl.model.Acl;
@@ -45,12 +43,12 @@ import net.nikore.consul.v1.event.model.Event;
 import net.nikore.consul.v1.event.model.EventParams;
 import net.nikore.consul.v1.health.HealthClient;
 import net.nikore.consul.v1.health.HealthConsulClient;
+import net.nikore.consul.v1.health.model.Check;
 import net.nikore.consul.v1.health.model.HealthService;
 import net.nikore.consul.v1.kv.KeyValueClient;
 import net.nikore.consul.v1.kv.KeyValueConsulClient;
 import net.nikore.consul.v1.kv.model.GetBinaryValue;
 import net.nikore.consul.v1.kv.model.GetValue;
-import net.nikore.consul.v1.health.model.Check;
 import net.nikore.consul.v1.kv.model.PutParams;
 import net.nikore.consul.v1.session.SessionClient;
 import net.nikore.consul.v1.session.SessionConsulClient;
